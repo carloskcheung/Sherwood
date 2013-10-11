@@ -1,4 +1,11 @@
 Sherwood::Application.routes.draw do
+
+  get 'contact' => 'pages#contact'
+  get 'about' => 'pages#about'
+ 
+
+  root :to => "pages#home"
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
