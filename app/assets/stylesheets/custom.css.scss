@@ -58,7 +58,7 @@ h1 {
   letter-spacing: -2px;
   margin-bottom: 30px;
   text-align: center;
-  color: #fff;
+  color: #grayMediumLight;
 }
 
 h2 {
@@ -66,13 +66,13 @@ h2 {
   letter-spacing: -1px;
   margin-bottom: 30px;
   font-weight: normal;
-  color: $grayLight;
+  color: #grayDarker;
 }
 
 p {
   font-size: 1.5em;
   line-height: 1.7em;
-  color: #fff;
+  color: $grayLight;
 }
 
 .about{
@@ -105,7 +105,7 @@ footer {
   border-top: 1px solid $grayMediumLight;
   color: $grayLight;
   a {
-    color: #fff;
+    color: #grayMediumLight;
     &:hover {
       color: $grayDarker;
     }
