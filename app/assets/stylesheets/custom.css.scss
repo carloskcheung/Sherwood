@@ -6,6 +6,8 @@
 /* mixins, variables, etc. */
 
 $grayMediumLight: #eaeaea;
+$grayDarker: #575757;
+$grayLight: #A9A9A9;
 
 @mixin box_sizing {
   -moz-box-sizing: border-box;
@@ -66,13 +68,13 @@ h2 {
   letter-spacing: -1px;
   margin-bottom: 30px;
   font-weight: normal;
-  color: #grayDarker;
+  color: $grayDarker;
 }
 
 p {
   font-size: 1.5em;
   line-height: 1.7em;
-  color: #grayLight;
+  color: $grayLight;
 }
 
 .about{
