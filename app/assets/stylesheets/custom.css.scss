@@ -76,6 +76,12 @@ p {
   color: $grayLight;
 }
 
+.img-responsive {
+ display: block;
+ height: auto;
+ max-width: 100%;
+}
+
 .about{
   color: #2F4F4F;
 }
