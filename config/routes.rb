@@ -2,7 +2,7 @@ Sherwood::Application.routes.draw do
 
   get 'contact' => 'pages#contact'
   get 'about' => 'pages#about'
-  get 'resume' => 'pages#pdf'
+  get 'resume' => 'pages#resume'
 
   root :to => "pages#home"
 
